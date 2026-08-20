@@ -1,0 +1,42 @@
+## Arquivos de compilação do .NET
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio / VS Code / JetBrains Rider
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Arquivos de Testes
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+coverage*.xml
+coverage*.json
+
+## Segredos e Configurações Locais
+# Descomente se quiser evitar commitar strings de conexão locais
+# appsettings.Development.json
+secrets.json
+
+## Pacotes NuGet baixados localmente
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+## Arquivos temporários do Sistema Operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
